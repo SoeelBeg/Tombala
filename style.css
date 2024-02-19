@@ -4,11 +4,9 @@
     box-sizing: border-box;
 }
 
-body{
-    background-image: url("https://assets.website-files.com/5d26d80e8836af2d12ed1269/5dbc3e74c04264191900513c_blue_pattern-1.png");
+body{
     background-size: cover;
-    font-family: 'Arimo', sans-serif;
-
+    font-family: 'Arimo', sans-serif;
 }
 video {
     position: fixed;
@@ -18,6 +16,7 @@ video {
     height: 100vh;
     object-fit: cover;
     z-index: -1;
+    background-size: cover;
     -webkit-filter: brightness(0.5); /* Adjust brightness as needed */
     filter: brightness(0.5); /* Adjust brightness as needed */
   }
